@@ -22,6 +22,28 @@
 		F3C6804018F9A0E10092D6D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6801F18F9A0E10092D6D8 /* UIKit.framework */; };
 		F3C6804818F9A0E10092D6D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3C6804618F9A0E10092D6D8 /* InfoPlist.strings */; };
 		F3C6804A18F9A0E10092D6D8 /* SpaceAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C6804918F9A0E10092D6D8 /* SpaceAppsTests.m */; };
+		F3C6805418F9A5350092D6D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6805318F9A5350092D6D8 /* CoreLocation.framework */; };
+		F3C6805618F9ABEF0092D6D8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6805518F9ABEF0092D6D8 /* CoreMotion.framework */; };
+		F3C6805818F9F5520092D6D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6805718F9F5520092D6D8 /* AudioToolbox.framework */; };
+		F3C6805E18FA00EA0092D6D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6805D18FA00EA0092D6D8 /* AVFoundation.framework */; };
+		F3C6806018FA04420092D6D8 /* beep-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3C6805F18FA04420092D6D8 /* beep-11.mp3 */; };
+		F3C6806218FA05C40092D6D8 /* beep-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3C6806118FA05C40092D6D8 /* beep-12.mp3 */; };
+		F3C6806618FA22190092D6D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6806518FA22190092D6D8 /* QuartzCore.framework */; };
+		F3C6806A18FAF5E10092D6D8 /* satelite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3C6806918FAF5E10092D6D8 /* satelite.jpg */; };
+		F3C6807318FAF9B00092D6D8 /* ListaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C6807218FAF9B00092D6D8 /* ListaViewController.m */; };
+		F3C6807618FAFAFE0092D6D8 /* SateliteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C6807518FAFAFE0092D6D8 /* SateliteTableViewCell.m */; };
+		F3C6807C18FAFFE30092D6D8 /* BRUJULAA.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6807B18FAFFE30092D6D8 /* BRUJULAA.png */; };
+		F3C6807E18FAFFF30092D6D8 /* BRUJULAB.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6807D18FAFFF30092D6D8 /* BRUJULAB.png */; };
+		F3C6808018FB01EA0092D6D8 /* centro.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6807F18FB01EA0092D6D8 /* centro.png */; };
+		F3C6808318FB0EAE0092D6D8 /* PassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C6808218FB0EAE0092D6D8 /* PassesViewController.m */; };
+		F3C6808618FB14EC0092D6D8 /* PassesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C6808518FB14EC0092D6D8 /* PassesTableViewCell.m */; };
+		F3C6808A18FB18A30092D6D8 /* pantalla1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6808918FB18A30092D6D8 /* pantalla1.png */; };
+		F3C6809618FB1DF40092D6D8 /* icono.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6809318FB1DF40092D6D8 /* icono.png */; };
+		F3C6809718FB1DF40092D6D8 /* icono58.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6809418FB1DF40092D6D8 /* icono58.png */; };
+		F3C6809818FB1DF40092D6D8 /* icono80.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6809518FB1DF40092D6D8 /* icono80.png */; };
+		F3C6809A18FB20A90092D6D8 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C6809918FB20A90092D6D8 /* Images-2.xcassets */; };
+		F3C6809F18FB253B0092D6D8 /* arribaabajo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C6809E18FB253B0092D6D8 /* arribaabajo.png */; };
+		F3C680A118FB25430092D6D8 /* derechaizquierda.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C680A018FB25430092D6D8 /* derechaizquierda.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +77,32 @@
 		F3C6804518F9A0E10092D6D8 /* SpaceAppsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceAppsTests-Info.plist"; sourceTree = "<group>"; };
 		F3C6804718F9A0E10092D6D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3C6804918F9A0E10092D6D8 /* SpaceAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceAppsTests.m; sourceTree = "<group>"; };
+		F3C6805318F9A5350092D6D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F3C6805518F9ABEF0092D6D8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F3C6805718F9F5520092D6D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F3C6805D18FA00EA0092D6D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F3C6805F18FA04420092D6D8 /* beep-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-11.mp3"; sourceTree = "<group>"; };
+		F3C6806118FA05C40092D6D8 /* beep-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-12.mp3"; sourceTree = "<group>"; };
+		F3C6806518FA22190092D6D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3C6806918FAF5E10092D6D8 /* satelite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = satelite.jpg; path = SpaceApps/satelite.jpg; sourceTree = "<group>"; };
+		F3C6807118FAF9B00092D6D8 /* ListaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaViewController.h; sourceTree = "<group>"; };
+		F3C6807218FAF9B00092D6D8 /* ListaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaViewController.m; sourceTree = "<group>"; };
+		F3C6807418FAFAFE0092D6D8 /* SateliteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SateliteTableViewCell.h; sourceTree = "<group>"; };
+		F3C6807518FAFAFE0092D6D8 /* SateliteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SateliteTableViewCell.m; sourceTree = "<group>"; };
+		F3C6807B18FAFFE30092D6D8 /* BRUJULAA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BRUJULAA.png; path = SpaceApps/BRUJULAA.png; sourceTree = "<group>"; };
+		F3C6807D18FAFFF30092D6D8 /* BRUJULAB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRUJULAB.png; sourceTree = "<group>"; };
+		F3C6807F18FB01EA0092D6D8 /* centro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centro.png; sourceTree = "<group>"; };
+		F3C6808118FB0EAE0092D6D8 /* PassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassesViewController.h; sourceTree = "<group>"; };
+		F3C6808218FB0EAE0092D6D8 /* PassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassesViewController.m; sourceTree = "<group>"; };
+		F3C6808418FB14EC0092D6D8 /* PassesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassesTableViewCell.h; sourceTree = "<group>"; };
+		F3C6808518FB14EC0092D6D8 /* PassesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassesTableViewCell.m; sourceTree = "<group>"; };
+		F3C6808918FB18A30092D6D8 /* pantalla1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pantalla1.png; sourceTree = "<group>"; };
+		F3C6809318FB1DF40092D6D8 /* icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono.png; sourceTree = "<group>"; };
+		F3C6809418FB1DF40092D6D8 /* icono58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono58.png; sourceTree = "<group>"; };
+		F3C6809518FB1DF40092D6D8 /* icono80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono80.png; sourceTree = "<group>"; };
+		F3C6809918FB20A90092D6D8 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		F3C6809E18FB253B0092D6D8 /* arribaabajo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arribaabajo.png; sourceTree = "<group>"; };
+		F3C680A018FB25430092D6D8 /* derechaizquierda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derechaizquierda.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +110,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C6806618FA22190092D6D8 /* QuartzCore.framework in Frameworks */,
+				F3C6805E18FA00EA0092D6D8 /* AVFoundation.framework in Frameworks */,
+				F3C6805818F9F5520092D6D8 /* AudioToolbox.framework in Frameworks */,
+				F3C6805618F9ABEF0092D6D8 /* CoreMotion.framework in Frameworks */,
+				F3C6805418F9A5350092D6D8 /* CoreLocation.framework in Frameworks */,
 				F3C6801E18F9A0E10092D6D8 /* CoreGraphics.framework in Frameworks */,
 				F3C6802018F9A0E10092D6D8 /* UIKit.framework in Frameworks */,
 				F3C6801C18F9A0E10092D6D8 /* Foundation.framework in Frameworks */,
@@ -84,6 +137,9 @@
 		F3C6800F18F9A0E10092D6D8 = {
 			isa = PBXGroup;
 			children = (
+				F3C6809C18FB23180092D6D8 /* celdas */,
+				F3C6809B18FB23060092D6D8 /* imagenes */,
+				F3C6809D18FB233A0092D6D8 /* sonidos */,
 				F3C6802118F9A0E10092D6D8 /* SpaceApps */,
 				F3C6804318F9A0E10092D6D8 /* SpaceAppsTests */,
 				F3C6801A18F9A0E10092D6D8 /* Frameworks */,
@@ -103,6 +159,11 @@
 		F3C6801A18F9A0E10092D6D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3C6806518FA22190092D6D8 /* QuartzCore.framework */,
+				F3C6805D18FA00EA0092D6D8 /* AVFoundation.framework */,
+				F3C6805718F9F5520092D6D8 /* AudioToolbox.framework */,
+				F3C6805518F9ABEF0092D6D8 /* CoreMotion.framework */,
+				F3C6805318F9A5350092D6D8 /* CoreLocation.framework */,
 				F3C6801B18F9A0E10092D6D8 /* Foundation.framework */,
 				F3C6801D18F9A0E10092D6D8 /* CoreGraphics.framework */,
 				F3C6801F18F9A0E10092D6D8 /* UIKit.framework */,
@@ -118,9 +179,14 @@
 				F3C6802B18F9A0E10092D6D8 /* AppDelegate.m */,
 				F3C6802D18F9A0E10092D6D8 /* Main_iPhone.storyboard */,
 				F3C6803018F9A0E10092D6D8 /* Main_iPad.storyboard */,
+				F3C6808118FB0EAE0092D6D8 /* PassesViewController.h */,
+				F3C6808218FB0EAE0092D6D8 /* PassesViewController.m */,
+				F3C6807118FAF9B00092D6D8 /* ListaViewController.h */,
+				F3C6807218FAF9B00092D6D8 /* ListaViewController.m */,
 				F3C6803318F9A0E10092D6D8 /* ViewController.h */,
 				F3C6803418F9A0E10092D6D8 /* ViewController.m */,
 				F3C6803618F9A0E10092D6D8 /* Images.xcassets */,
+				F3C6809918FB20A90092D6D8 /* Images-2.xcassets */,
 				F3C6802218F9A0E10092D6D8 /* Supporting Files */,
 			);
 			path = SpaceApps;
@@ -153,6 +219,44 @@
 				F3C6804618F9A0E10092D6D8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3C6809B18FB23060092D6D8 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				F3C6809E18FB253B0092D6D8 /* arribaabajo.png */,
+				F3C680A018FB25430092D6D8 /* derechaizquierda.png */,
+				F3C6806918FAF5E10092D6D8 /* satelite.jpg */,
+				F3C6807B18FAFFE30092D6D8 /* BRUJULAA.png */,
+				F3C6809318FB1DF40092D6D8 /* icono.png */,
+				F3C6809418FB1DF40092D6D8 /* icono58.png */,
+				F3C6809518FB1DF40092D6D8 /* icono80.png */,
+				F3C6808918FB18A30092D6D8 /* pantalla1.png */,
+				F3C6807D18FAFFF30092D6D8 /* BRUJULAB.png */,
+				F3C6807F18FB01EA0092D6D8 /* centro.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		F3C6809C18FB23180092D6D8 /* celdas */ = {
+			isa = PBXGroup;
+			children = (
+				F3C6808418FB14EC0092D6D8 /* PassesTableViewCell.h */,
+				F3C6808518FB14EC0092D6D8 /* PassesTableViewCell.m */,
+				F3C6807418FAFAFE0092D6D8 /* SateliteTableViewCell.h */,
+				F3C6807518FAFAFE0092D6D8 /* SateliteTableViewCell.m */,
+			);
+			name = celdas;
+			sourceTree = "<group>";
+		};
+		F3C6809D18FB233A0092D6D8 /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				F3C6805F18FA04420092D6D8 /* beep-11.mp3 */,
+				F3C6806118FA05C40092D6D8 /* beep-12.mp3 */,
+			);
+			name = sonidos;
+			path = SpaceApps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +335,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C6809F18FB253B0092D6D8 /* arribaabajo.png in Resources */,
+				F3C6809818FB1DF40092D6D8 /* icono80.png in Resources */,
+				F3C6806018FA04420092D6D8 /* beep-11.mp3 in Resources */,
+				F3C6808A18FB18A30092D6D8 /* pantalla1.png in Resources */,
+				F3C680A118FB25430092D6D8 /* derechaizquierda.png in Resources */,
+				F3C6809A18FB20A90092D6D8 /* Images-2.xcassets in Resources */,
+				F3C6806A18FAF5E10092D6D8 /* satelite.jpg in Resources */,
+				F3C6807C18FAFFE30092D6D8 /* BRUJULAA.png in Resources */,
+				F3C6806218FA05C40092D6D8 /* beep-12.mp3 in Resources */,
 				F3C6803218F9A0E10092D6D8 /* Main_iPad.storyboard in Resources */,
+				F3C6807E18FAFFF30092D6D8 /* BRUJULAB.png in Resources */,
 				F3C6803718F9A0E10092D6D8 /* Images.xcassets in Resources */,
+				F3C6809618FB1DF40092D6D8 /* icono.png in Resources */,
 				F3C6802F18F9A0E10092D6D8 /* Main_iPhone.storyboard in Resources */,
+				F3C6808018FB01EA0092D6D8 /* centro.png in Resources */,
+				F3C6809718FB1DF40092D6D8 /* icono58.png in Resources */,
 				F3C6802618F9A0E10092D6D8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C6807318FAF9B00092D6D8 /* ListaViewController.m in Sources */,
+				F3C6808618FB14EC0092D6D8 /* PassesTableViewCell.m in Sources */,
 				F3C6803518F9A0E10092D6D8 /* ViewController.m in Sources */,
+				F3C6807618FAFAFE0092D6D8 /* SateliteTableViewCell.m in Sources */,
 				F3C6802C18F9A0E10092D6D8 /* AppDelegate.m in Sources */,
 				F3C6802818F9A0E10092D6D8 /* main.m in Sources */,
+				F3C6808318FB0EAE0092D6D8 /* PassesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

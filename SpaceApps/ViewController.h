@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <QuartzCore/QuartzCore.h>
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
 
-@interface ViewController : UIViewController
 
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (weak, nonatomic) IBOutlet UILabel *a;
+@property (weak, nonatomic) IBOutlet UILabel *b;
+@property (weak, nonatomic) IBOutlet UILabel *c;
+@property (weak, nonatomic) IBOutlet UILabel *d;
+@property (weak, nonatomic) IBOutlet UILabel *e;
+@property (weak, nonatomic) IBOutlet UILabel *f;
+@property (weak, nonatomic) IBOutlet UILabel *g;
+@property (weak, nonatomic) IBOutlet UIImageView *compassImage;
+@property (weak, nonatomic) IBOutlet UILabel *h;
 @end
